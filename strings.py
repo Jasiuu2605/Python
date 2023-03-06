@@ -18,3 +18,10 @@ text_3 = 'I am {name} and I am {years} old'.format(name=name, years=age)
 funds = 150.9723
 
 print('Funds: {:10.1f}'.format(funds))
+
+text_3 = 'I\'m Jan'
+print(text_3)
+
+print(f'I am {name} and I am {age} years old')
+print(f'I am {name} and I am {age:.2f} years old')
+
